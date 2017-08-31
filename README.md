@@ -2,17 +2,7 @@
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Your Portfolio of Apps
 
-![](./readme-assets/graduate.jpg)
-
-### Unit Four Here We Come!
-
----
-
-Guess what? It is the final unit of WDI before you officially cross the threshold into the tech industry! Holy cow!
-
-To prepare you, this unit is structured unlike any other unit. Instead of being assigned daily homework, you will spend the next two weeks building, tweaking, and deploying applications (new and old).
-
-During this time, you are expected to deliver three applications (each in their own github repo):
+At the end of this unit, you are expected to deliver three applications (each in their own github repo):
   * Personal Portfolio Website (this is due a week after the course ends)
   * Rails CRUD Application
   * A Final Project, with the tech stack of your choosing
