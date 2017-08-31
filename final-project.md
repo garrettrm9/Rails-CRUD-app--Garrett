@@ -16,7 +16,7 @@ Make sure you review your project proposal with your instructor so you can make 
 **Your app must:**
 
 * **Build a full-stack application** by making your own backend and your own front-end
-* **Have an interactive front-end**
+* **Have an interactive front-end**. This will more than likely be React.
 * **Be a complete product**. Hint: this probably includes CRUD functionality.
 * **Implement thoughtful user stories** that are significant enough to help you know which features to build and which to scrap
 * **Have a visually impressive design** to kick your portfolio up a notch and have something to wow future clients & employers
