@@ -1,5 +1,3 @@
-# PROJECT_04_PORTFOLIO
-
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Your Portfolio of Apps
 
 At the end of this unit, you are expected to deliver three applications (each in their own github repo):
