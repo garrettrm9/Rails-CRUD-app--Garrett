@@ -9,7 +9,7 @@ See below for more details!
 
 ### Required Applications:
 
-- **Rails CRUD Application** with at least 2 tables in your database. (**due on 09/12/2017**) (Submit this via issue ticket on this repo!)
+- **Rails CRUD Application** with at least 2 tables in your database. (**due on 12/12/2017**) (Submit this via issue ticket on this repo!)
 
 - **Personal Portfolio Website**, which must include:
   * 4-5 Completed Projects with links to the github/deployed version
