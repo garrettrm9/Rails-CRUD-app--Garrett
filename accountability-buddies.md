@@ -12,3 +12,5 @@
 | Abrian | Olivia    |            |
 | Lilly  | Aaron     | Arissa     |
 | Ozzy   | Syed      | Steven C   |
+
+As you work with your final project, check in with your accountability buddies frequently. Keep each other on track throughout the process! 
