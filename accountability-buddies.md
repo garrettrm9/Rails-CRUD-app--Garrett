@@ -1,6 +1,6 @@
 # Accountabilibuddies!
 
-| 1      | 2         | 3          |
+
 |--------|-----------|------------|
 | Adanna | Andrea M  | Patrick    |
 | Alex   | Kai       | Andrea Lee |
