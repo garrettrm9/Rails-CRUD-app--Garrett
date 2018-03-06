@@ -26,7 +26,7 @@ Make sure you review your project proposal with your instructor so you can make 
 
 ## Proposals
 
-We will be accepting proposals any time between now and Tuesday, 9/12.
+We will be accepting proposals any time between now and **Thursday, 3/8**.
 
 Your proposals must include:
 - The name of your app.
@@ -41,9 +41,9 @@ Your proposals must include:
 
 ### Timeline 
 
-- **12/07 - 12/12**: Work on your proposals! As soon as you have a proposal prepared, you can present it to your squad leader. Keep in mind the things we have coming next week -- Rails CRUD, Rails with React, Rails auth, more Rails reps -- and don't decide what your tech stack is going to include too soon. 
-- **12/12 - 12/19**: Project worktime! You'll have time to work on your project for the last week of class.
-- **12/20**: SCIENCE FAIR AND GRADUATION!!!!!!! YOU MADE IT!!! YAY!!!
+- **3/6 - 3/8**: Work on your proposals! As soon as you have a proposal prepared, you can present it to the instructors.
+- **3/9 - 3/16**: Project worktime! You'll have time to work on your project for the last week of class.
+- **3/16**: SCIENCE FAIR AND GRADUATION!!!!!!! YOU MADE IT!!! YAY!!!
 
 ### What if I Have a Dream That Doesn't Fulfill the Requirements?
 
