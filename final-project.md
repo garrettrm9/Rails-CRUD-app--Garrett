@@ -95,13 +95,6 @@ If you have an idea that might not fulfill the above requirements, that's ok.  T
 * **[Visual Design Hacking](https://generalassemb.ly/online/videos/visual-design-hacking)** _(a great tips-and-tricks focused video from Front Row)_
 * **[Web Design For Non-designers](https://generalassemb.ly/online/videos/web-design-for-non-designers)** _(another great design-related course for all the nerds out there)_
 
-___
-## Random Fun Things You Could Check Out (Definitely not required):
-* React Native - Use React to build a phone app!
-* Electron - Use JS to build a native application
-* Raspberry Pi - Use JS to build a robot/IoT project
-* D3 - Build beautiful graphs and visual experiences for data.
-
 ---
 
 ## Project Evaluation
