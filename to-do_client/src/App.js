@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 
@@ -7,7 +6,8 @@ class App extends Component {
   
   constructor(props){
     super(props)
-    this.state = {to_dos: {to_do: ""}}
+    this.getToDos = this.getToDos.bind(this)
+    this.addToDo = this.addToDo.bind(this)
   }
 
   getToDos(){
@@ -18,8 +18,19 @@ class App extends Component {
     })
   }
 
+  addToDo(){
+    axios({
+      url: "http://localhost:3000/to_dos",
+      method: 'POST',
+      data: {to_dos: {to_do: 'Get your shit together'}}
+    }).then(response => {
+      console.log('POST toDo: ', response.data)
+    })
+  }
+
   componentDidMount(){
     this.getToDos()
+    // this.addToDo()
   }
 
   render() {
