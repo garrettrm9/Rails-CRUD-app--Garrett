@@ -8,6 +8,12 @@ class ToDosController < ApplicationController
     toDo = ToDo.create!(toDo_params)
   end
 
+  def update
+    toDo = ToDo.find(params[:id])
+    toDo.update!(toDo_params)
+    render json: toDo
+  end
+
   private
 
   def toDo_params
@@ -15,4 +21,3 @@ class ToDosController < ApplicationController
   end
 
 end
-
