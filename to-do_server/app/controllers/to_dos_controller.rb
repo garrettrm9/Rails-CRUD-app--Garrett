@@ -14,6 +14,12 @@ class ToDosController < ApplicationController
     render json: toDo
   end
 
+  def destroy
+    toDo = ToDo.find(params[:id])
+    toDo.destroy!
+    render plain: "Look at you! You're so productive!"
+  end
+
   private
 
   def toDo_params
