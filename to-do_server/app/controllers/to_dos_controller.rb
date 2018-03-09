@@ -6,6 +6,7 @@ class ToDosController < ApplicationController
 
   def create
     toDo = ToDo.create!(toDo_params)
+    render json: toDo
   end
 
   def update
