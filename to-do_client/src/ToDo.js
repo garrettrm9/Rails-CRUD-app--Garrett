@@ -4,7 +4,7 @@ class ToDo extends Component {
 
   constructor(props) {
     super(props)
-    this.state = {isEditing: false, newToDo: []}
+    this.state = {isEditing: false, newToDo: [], newToDoId: ""}
     this.deleteToDoHandler = this.deleteToDoHandler.bind(this)
     this.editToDoHandler = this.editToDoHandler.bind(this)
     this.changeHandler = this.changeHandler.bind(this)
@@ -21,12 +21,14 @@ class ToDo extends Component {
       prevState.isEditing = !prevState.isEditing;
       return prevState;
     });
-    this.props.editToDo(this.state.newToDo)
+    console.log("editToDoHandler",this.state.newToDo)
+    this.props.editToDo(this.state.newToDo, this.state.newToDoId)
   }
 
   changeHandler(e){
     e.preventDefault()
     this.setState({newToDo: {to_dos:{'to_do': e.target.value}}})
+    this.setState({newToDoId: e.target.name})
   }
 
   render() {
@@ -38,8 +40,8 @@ class ToDo extends Component {
       return(
         <div className="to_do_form">
           <form onSubmit={this.editToDoHandler}>
-            <label> Add to your to-do list
-               <input onChange={this.changeHandler} type='text'/>
+            <label> Edit this item
+               <input onChange={this.changeHandler} type='text' name={id}/>
                <button>Submit</button>
             </label>
           </form>

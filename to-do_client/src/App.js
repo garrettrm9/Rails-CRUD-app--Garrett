@@ -37,10 +37,10 @@ class App extends Component {
   }
 
   //Edit todo list item
-  editToDo(toDo) {
+  editToDo(toDo, id) {
     console.log("editToDo",toDo)
     axios({
-      url: `http://localhost:3000/to_dos/${toDo}`,
+      url: `http://localhost:3000/to_dos/${id}`,
       method: "PUT",
       data: toDo
     }).then(response => {
