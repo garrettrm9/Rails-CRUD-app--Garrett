@@ -16,9 +16,6 @@ class ToDos extends Component {
               index={index}
               deleteToDo={this.props.deleteToDo}
               editToDo={this.props.editToDo}
-              addToDo={this.props.addToDo}
-              submitToDo={this.submitToDo}
-              changeHandler={this.changeHandler}
             />;
   }
 
@@ -30,7 +27,7 @@ class ToDos extends Component {
   submitToDo(e){
     e.preventDefault()
     this.props.addToDo(this.state.newToDos)
-    console.log("submitToDo:",this.state.newToDos)    
+    // console.log("submitToDo:",this.state.newToDos)    
   }
 
   componentDidMount() {
@@ -42,7 +39,6 @@ class ToDos extends Component {
 
     return (
       <div className="to_do_container">
-        <h2>To-do list</h2>
         <ul className="to_do_item">{toDos}</ul>
         <div className="to_do_form">
           <form onSubmit={this.submitToDo}>

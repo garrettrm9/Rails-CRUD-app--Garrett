@@ -4,7 +4,7 @@ class ToDo extends Component {
 
   constructor(props) {
     super(props)
-    this.state = {isEditing: false, newToDo: [], newToDoId: ""}
+    this.state = {isEditing: false, editedToDo: [], editedToDoId: ""}
     this.deleteToDoHandler = this.deleteToDoHandler.bind(this)
     this.editToDoHandler = this.editToDoHandler.bind(this)
     this.changeHandler = this.changeHandler.bind(this)
@@ -22,20 +22,19 @@ class ToDo extends Component {
       return prevState;
     });
     console.log("editToDoHandler",this.state.newToDo)
-    this.props.editToDo(this.state.newToDo, this.state.newToDoId)
+    this.props.editToDo(this.state.editedToDo, this.state.editedToDoId)
   }
 
   changeHandler(e){
     e.preventDefault()
-    this.setState({newToDo: {to_dos:{'to_do': e.target.value}}})
-    this.setState({newToDoId: e.target.name})
+    this.setState({editedToDo: {to_dos:{'to_do': e.target.value}}})
+    this.setState({editedToDoId: e.target.name})
   }
 
   render() {
     const toDoDatum = this.props.toDoDatum;
     const toDo = toDoDatum.to_do;
     const id = toDoDatum.id;
-    let maybeNewToDo = null;
     if (this.state.isEditing) {
       return(
         <div className="to_do_form">
